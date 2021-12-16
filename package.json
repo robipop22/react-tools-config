@@ -1,0 +1,27 @@
+{
+  "name": "react-tools-config",
+  "version": "1.0.0",
+  "description": "eslint, prettier and ts configs to help you code faster",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robipop22/react-tools-config.git"
+  },
+  "keywords": [
+    "react",
+    "tools",
+    "eslint",
+    "prettier",
+    "typescript",
+    "config"
+  ],
+  "author": "robipop22",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robipop22/react-tools-config/issues"
+  },
+  "homepage": "https://github.com/robipop22/react-tools-config#readme"
+}

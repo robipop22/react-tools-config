@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+      "target": "es5",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "preserve",
+      "baseUrl": "./",
+      "paths": {
+          "*": ["src/*"],
+          "tests": ["tests/*"],
+          "@public/*": ["public/*"],
+          "@components/*": ["src/components/*"],
+          "@containers/*": ["src/containers/*"],
+          "@constants/*": ["src/constants/*"],
+          "@constants": ["src/constants/index"],
+          "@interfaces/*": ["src/interfaces/*"],
+          "@screens/*": ["src/screens/*"],
+          "@routes/*": ["src/routes/*"],
+          "@utils/*": ["src/utils/*"],
+          "@utils": ["src/utils/index"],
+          "@theme": ["src/styles/theme"]
+      }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "cypress/integration/home/_index.test.js", "**/*.js"],
+  "exclude": ["node_modules", "cypress"]
+}
