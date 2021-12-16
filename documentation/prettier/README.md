@@ -20,7 +20,7 @@ Search for "Format on Save" and enable it in the IDE's preferences.
 
 ## Configure Prettier so that it points to the correct config file
 
-In the preferences, go to "Prettier" and under "prettier.config" update the input to "WorkbookComponent/node_modules/@sw-performance/prettier-config/index.json" as shown below.
+In the preferences, go to "Prettier" and under "prettier.config" update the input to "$rootProject/node_modules/react-tools-config/web/.prettierrc.js" as shown below.
 
 ![Prettier Config](prettier-4.png 'Prettier Config')
 
