@@ -1,0 +1,45 @@
+{
+  "name": "mobile-react-tools-config",
+  "version": "1.0.0",
+  "description": "eslint, prettier and ts configs to help you code faster",
+  "main": "index.js",
+  "husky": {
+    "hooks": {
+        "pre-commit": "yarn hook"
+    }
+  },
+  "scripts": {
+    "test": "test",
+    "format": "prettier --write src/**/*.ts{,x}",
+    "lint": "tsc --noEmit && eslint . --ext .ts,.tsx",
+    "hook": "yarn lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robipop22/react-tools-config.git"
+  },
+  "keywords": [
+    "react",
+    "tools",
+    "eslint",
+    "prettier",
+    "typescript",
+    "config"
+  ],
+  "author": "robipop22",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robipop22/react-tools-config/issues"
+  },
+  "homepage": "https://github.com/robipop22/react-tools-config#readme",
+  "peerDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-testing-library": "^4.12.4",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "husky": "4.2.5"
+  }
+}
